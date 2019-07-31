@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block p %}
+  {% if dict['even'] %}
+    <h1> {{dict['number_input']}} is EVEN </h1>
+  {% elif dict['odd'] %}
+    <h1> {{dict['number_input']}} is ODD </h1>
+  {% else %}
+    <h1> {{dict['number_input']}} is ZERO </h1>
+  {% endif %}
+{% endblock %}
+
+{% block f %}
+<form  action="{{url_for('index')}}" method="post">
+<input type="number" name="numberInputFromForm" placeholder="Enter number here . . .">
+<button>Submit</button>
+</form>
+{% endblock %}

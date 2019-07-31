@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"content="height=device-height, initial-scale=1.0">
+
+    <title>Python Powered Web App</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+
+  <body>
+
+    <br>
+    {% block p1 %}  {% endblock %}
+
+    <h1>
+      {% block heading %}  {% endblock %}
+    </h1>
+
+    <p>
+      {% block p %}  {% endblock %}
+    </p>
+
+  </body>
+</html>

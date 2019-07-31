@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block p1 %}
+  This application prints the table of a number.
+  <br><br>
+  <form  action="{{url_for('index')}}" method="post">
+    <input type="number" name="numberInputFromForm" placeholder="Enter number here . . .">
+    <button>Submit</button>
+  </form>
+{% endblock %}
+
+{% block heading %}
+  Table of {{num}}:
+{% endblock %}
+
+
+{% block p %}
+  {% for i in range(1,11) %}
+  {{num}} * {{i}} = {{ num * i }} <br> <br>
+  {% endfor %}
+{% endblock %}

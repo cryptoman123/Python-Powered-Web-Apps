@@ -1,0 +1,12 @@
+Instructions:
+	Following are the requirements to run this peogram
+	1.	Install Python3.7 or a later version
+	2.	Install Flask, the Python web micro framework.
+	
+	Following are the instructions to "How to run this program?"
+	1.. double click "run my flask app.bat" this will open a black commandline screen, do not close it.
+	2.. open a web browser.
+	3.. type "127.0.0.1:5000" in the address bar
+	
+	Following are the instructions on "How to use the application?"
+	1... Inside the textBox type the Integer number which you want to check if it is even or odd

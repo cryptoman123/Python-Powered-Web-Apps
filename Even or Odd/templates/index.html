@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+
+{% block f %}
+<form  action="{{url_for('index')}}" method="post">
+<input type="number" name="numberInputFromForm" placeholder="Enter number here . . .">
+<button>Submit</button>
+</form>
+{% endblock %}

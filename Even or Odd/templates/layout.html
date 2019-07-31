@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Web Page</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+  </head>
+
+  <body>
+      <br>
+      <h1>Python powered web app<h1>
+      This application tells is a number is even or odd <br>
+      {% block f %}  {% endblock %}
+
+    <p>
+      {% block p %}  {% endblock %}
+    </p>
+
+  </body>
+</html>

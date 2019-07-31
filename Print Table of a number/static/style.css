@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: "bold"
+  font-family: "Georgia";
+}
+h1 {
+  font-size: 32px;
+}
+p{
+  font-size: 20px;
+}
